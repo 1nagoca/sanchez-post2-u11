@@ -2306,3 +2306,449 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
                 Writing [com.empresa.catalogo.dto.ProductoResponseDTO@310ed552]
 2026-06-01 18:17:27 DEBUG org.springframework.web.servlet.DispatcherServlet -
                 Completed 201 CREATED
+2026-06-01 18:20:49 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01 18:20:49 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Graceful shutdown complete
+2026-06-01 18:20:49 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:20:49 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2026-06-01 18:20:49 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2026-06-01 18:20:56 INFO  org.hibernate.validator.internal.util.Version -
+                HV000001: Hibernate Validator 8.0.3.Final
+2026-06-01 18:20:56 INFO  com.empresa.catalogo.CatalogoApplication -
+                Starting CatalogoApplication using Java 26.0.1 with PID 9876 (C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master\target\classes started by camil in C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master)
+2026-06-01 18:20:56 DEBUG com.empresa.catalogo.CatalogoApplication -
+                Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-01 18:20:56 INFO  com.empresa.catalogo.CatalogoApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2026-06-01 18:20:57 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01 18:20:57 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+2026-06-01 18:20:58 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port 8080 (http)
+2026-06-01 18:20:58 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:20:58 INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2026-06-01 18:20:58 INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-01 18:20:58 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2026-06-01 18:20:58 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1950 ms
+2026-06-01 18:20:58 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2026-06-01 18:20:58 INFO  com.zaxxer.hikari.pool.HikariPool -
+                HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0948c8a3-380c-44bc-b950-581475b00eec user=SA
+2026-06-01 18:20:58 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2026-06-01 18:20:58 INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01 18:20:58 INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-01 18:20:58 INFO  org.hibernate.cache.internal.RegionFactoryInitiator -
+                HHH000026: Second-level cache disabled
+2026-06-01 18:20:59 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo -
+                No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01 18:20:59 INFO  org.hibernate.orm.connections.pooling -
+                HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01 18:21:00 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+                HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01 18:21:00 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:21:00 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01 18:21:00 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                10 mappings in 'requestMappingHandlerMapping'
+2026-06-01 18:21:01 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -
+                Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.2/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-06-01 18:21:01 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -
+                ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-01 18:21:01 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver -
+                ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-01 18:21:01 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:21:01 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port 8080 (http) with context path '/'
+2026-06-01 18:21:01 INFO  com.empresa.catalogo.CatalogoApplication -
+                Started CatalogoApplication in 6.431 seconds (process running for 7.549)
+2026-06-01 18:21:01 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-01 18:21:01 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-01 18:21:37 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01 18:21:37 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected StandardServletMultipartResolver
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected AcceptHeaderLocaleResolver
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected FixedThemeResolver
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5a20f793
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.support.SessionFlashMapManager@751b901a
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-01 18:21:37 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 12 ms
+2026-06-01 18:21:37 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                POST "/api/productos", parameters={}
+2026-06-01 18:21:38 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                Mapped to com.empresa.catalogo.controller.ProductoController#crear(ProductoRequestDTO)
+2026-06-01 18:21:38 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor -
+                Read "application/json;charset=UTF-8" to [com.empresa.catalogo.dto.ProductoRequestDTO@51c239c]
+2026-06-01 18:21:38 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Creando producto: nombre=Laptop, categoria=ELECTRONICA
+2026-06-01 18:21:38 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Producto creado exitosamente con id=1
+2026-06-01 18:21:38 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-01 18:21:38 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Writing [com.empresa.catalogo.dto.ProductoResponseDTO@2493f187]
+2026-06-01 18:21:38 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Completed 201 CREATED
+2026-06-01 18:28:15 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01 18:28:15 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Graceful shutdown complete
+2026-06-01 18:28:15 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:28:15 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2026-06-01 18:28:15 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2026-06-01 18:28:44 INFO  org.hibernate.validator.internal.util.Version -
+                HV000001: Hibernate Validator 8.0.3.Final
+2026-06-01 18:28:44 INFO  com.empresa.catalogo.CatalogoApplication -
+                Starting CatalogoApplication using Java 26.0.1 with PID 20280 (C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master\target\classes started by camil in C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master)
+2026-06-01 18:28:44 DEBUG com.empresa.catalogo.CatalogoApplication -
+                Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-01 18:28:44 INFO  com.empresa.catalogo.CatalogoApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2026-06-01 18:28:44 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01 18:28:45 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-06-01 18:28:45 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port 8080 (http)
+2026-06-01 18:28:45 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:28:45 INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2026-06-01 18:28:45 INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-01 18:28:45 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2026-06-01 18:28:45 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1426 ms
+2026-06-01 18:28:45 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2026-06-01 18:28:46 INFO  com.zaxxer.hikari.pool.HikariPool -
+                HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0e5bffdf-d829-457a-8eb7-866fcf4ffd99 user=SA
+2026-06-01 18:28:46 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2026-06-01 18:28:46 INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01 18:28:46 INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-01 18:28:46 INFO  org.hibernate.cache.internal.RegionFactoryInitiator -
+                HHH000026: Second-level cache disabled
+2026-06-01 18:28:46 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo -
+                No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01 18:28:46 INFO  org.hibernate.orm.connections.pooling -
+                HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01 18:28:47 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+                HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01 18:28:47 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:28:47 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01 18:28:48 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                10 mappings in 'requestMappingHandlerMapping'
+2026-06-01 18:28:48 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -
+                Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.2/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-06-01 18:28:48 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -
+                ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-01 18:28:48 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver -
+                ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-01 18:28:48 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:28:48 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port 8080 (http) with context path '/'
+2026-06-01 18:28:48 INFO  com.empresa.catalogo.CatalogoApplication -
+                Started CatalogoApplication in 5.026 seconds (process running for 5.658)
+2026-06-01 18:28:48 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-01 18:28:48 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-01 18:30:53 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01 18:30:53 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Graceful shutdown complete
+2026-06-01 18:30:53 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:30:53 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2026-06-01 18:30:53 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2026-06-01 18:31:25 INFO  org.hibernate.validator.internal.util.Version -
+                HV000001: Hibernate Validator 8.0.3.Final
+2026-06-01 18:31:25 INFO  com.empresa.catalogo.CatalogoApplication -
+                Starting CatalogoApplication using Java 26.0.1 with PID 6308 (C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master\target\classes started by camil in C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master)
+2026-06-01 18:31:25 DEBUG com.empresa.catalogo.CatalogoApplication -
+                Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-01 18:31:25 INFO  com.empresa.catalogo.CatalogoApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2026-06-01 18:31:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01 18:31:26 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2026-06-01 18:31:27 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port 8080 (http)
+2026-06-01 18:31:27 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:31:27 INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2026-06-01 18:31:27 INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-01 18:31:27 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2026-06-01 18:31:27 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1708 ms
+2026-06-01 18:31:27 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2026-06-01 18:31:28 INFO  com.zaxxer.hikari.pool.HikariPool -
+                HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d51a588b-23dd-42b5-b815-faf7b8515219 user=SA
+2026-06-01 18:31:28 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2026-06-01 18:31:28 INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01 18:31:28 INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-01 18:31:28 INFO  org.hibernate.cache.internal.RegionFactoryInitiator -
+                HHH000026: Second-level cache disabled
+2026-06-01 18:31:28 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo -
+                No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01 18:31:28 INFO  org.hibernate.orm.connections.pooling -
+                HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01 18:31:30 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+                HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01 18:31:30 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:31:31 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01 18:31:32 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                10 mappings in 'requestMappingHandlerMapping'
+2026-06-01 18:31:32 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -
+                Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.2/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-06-01 18:31:32 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -
+                ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-01 18:31:32 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver -
+                ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-01 18:31:33 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:31:33 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port 8080 (http) with context path '/'
+2026-06-01 18:31:33 INFO  com.empresa.catalogo.CatalogoApplication -
+                Started CatalogoApplication in 8.333 seconds (process running for 8.929)
+2026-06-01 18:31:33 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-01 18:31:33 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-01 18:31:44 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01 18:31:44 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected StandardServletMultipartResolver
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected AcceptHeaderLocaleResolver
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected FixedThemeResolver
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7a482b3a
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.support.SessionFlashMapManager@6e111aeb
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-01 18:31:44 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                GET "/api/productos", parameters={}
+2026-06-01 18:31:44 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                Mapped to com.empresa.catalogo.controller.ProductoController#listar()
+2026-06-01 18:31:45 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-01 18:31:45 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Writing [[]]
+2026-06-01 18:31:45 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Completed 200 OK
+2026-06-01 18:37:48 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                POST "/api/productos", parameters={}
+2026-06-01 18:37:48 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                Mapped to com.empresa.catalogo.controller.ProductoController#crear(ProductoRequestDTO)
+2026-06-01 18:37:48 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor -
+                Read "application/json;charset=UTF-8" to [com.empresa.catalogo.dto.ProductoRequestDTO@620143dd]
+2026-06-01 18:37:48 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Creando producto: nombre=Laptop, categoria=ELECTRONICA
+2026-06-01 18:37:49 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Producto creado exitosamente con id=1
+2026-06-01 18:37:49 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-01 18:37:49 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Writing [com.empresa.catalogo.dto.ProductoResponseDTO@c21fc21]
+2026-06-01 18:37:49 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Completed 201 CREATED
+2026-06-01 18:38:11 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01 18:38:11 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Graceful shutdown complete
+2026-06-01 18:38:11 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:38:11 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2026-06-01 18:38:11 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2026-06-01 18:38:16 INFO  org.hibernate.validator.internal.util.Version -
+                HV000001: Hibernate Validator 8.0.3.Final
+2026-06-01 18:38:16 INFO  com.empresa.catalogo.CatalogoApplication -
+                Starting CatalogoApplication using Java 26.0.1 with PID 11608 (C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master\target\classes started by camil in C:\Users\camil\OneDrive\Escritorio\sanchez-post2-u11-master)
+2026-06-01 18:38:16 DEBUG com.empresa.catalogo.CatalogoApplication -
+                Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-01 18:38:16 INFO  com.empresa.catalogo.CatalogoApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2026-06-01 18:38:17 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01 18:38:17 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2026-06-01 18:38:17 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port 8080 (http)
+2026-06-01 18:38:17 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:38:17 INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2026-06-01 18:38:17 INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-01 18:38:17 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2026-06-01 18:38:17 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1326 ms
+2026-06-01 18:38:18 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2026-06-01 18:38:18 INFO  com.zaxxer.hikari.pool.HikariPool -
+                HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2fb88c4b-6c69-42cc-a589-d39ef77b0421 user=SA
+2026-06-01 18:38:18 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2026-06-01 18:38:18 INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01 18:38:18 INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-01 18:38:18 INFO  org.hibernate.cache.internal.RegionFactoryInitiator -
+                HHH000026: Second-level cache disabled
+2026-06-01 18:38:18 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo -
+                No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01 18:38:18 INFO  org.hibernate.orm.connections.pooling -
+                HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01 18:38:19 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+                HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01 18:38:19 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:38:20 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01 18:38:20 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                10 mappings in 'requestMappingHandlerMapping'
+2026-06-01 18:38:20 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping -
+                Patterns [/webjars/**, /**, /swagger-ui/**, /swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/**, /webjars/*swagger-ui/*swagger-initializer.js, /webjars/*swagger-ui/5.32.2/*swagger-initializer.js] in 'resourceHandlerMapping'
+2026-06-01 18:38:20 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter -
+                ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-01 18:38:20 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver -
+                ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-01 18:38:20 INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8080"]
+2026-06-01 18:38:20 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port 8080 (http) with context path '/'
+2026-06-01 18:38:20 INFO  com.empresa.catalogo.CatalogoApplication -
+                Started CatalogoApplication in 4.981 seconds (process running for 5.604)
+2026-06-01 18:38:20 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-01 18:38:20 WARN  org.springdoc.core.events.SpringDocAppInitializer -
+                SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-01 18:38:25 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01 18:38:25 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected StandardServletMultipartResolver
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected AcceptHeaderLocaleResolver
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected FixedThemeResolver
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@981d9d2
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Detected org.springframework.web.servlet.support.SessionFlashMapManager@39a03ccc
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-06-01 18:38:25 INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                POST "/api/productos", parameters={}
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping -
+                Mapped to com.empresa.catalogo.controller.ProductoController#crear(ProductoRequestDTO)
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor -
+                Read "application/json;charset=UTF-8" to [com.empresa.catalogo.dto.ProductoRequestDTO@2c588484]
+2026-06-01 18:38:25 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Creando producto: nombre=Laptop, categoria=ELECTRONICA
+2026-06-01 18:38:25 INFO  com.empresa.catalogo.service.ProductoServiceImpl -
+                Producto creado exitosamente con id=1
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor -
+                Writing [com.empresa.catalogo.dto.ProductoResponseDTO@1fdd8d68]
+2026-06-01 18:38:25 DEBUG org.springframework.web.servlet.DispatcherServlet -
+                Completed 201 CREATED
+2026-06-01 18:39:53 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01 18:39:53 INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown -
+                Graceful shutdown complete
+2026-06-01 18:39:53 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01 18:39:53 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2026-06-01 18:39:53 INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
